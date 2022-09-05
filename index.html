@@ -1,0 +1,33 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de tabuada aleatória</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <img src="icon.png" alt="Imagem do sinal de multiplicação 'x'">
+
+    <h1>Tabuada Aleatória</h1>
+
+    <p>Dois números escolhidos de forma aleatória irão aparecer na tela. Insira o resultado correto do produto entre eles!</p>
+
+    <div>
+        <h2 id="fator1">8</h2>
+        <p>x</p>
+        <h2 id="fator2">9</h2>
+        <p>=</p>
+        <input type="number" name="resultado" placeholder="Produto" id="produto">
+    </div>
+
+    <button id="button" onclick="correcaoResultado()">Clique para ver o resultado</button>
+
+    <div id="correcao"></div>
+
+    <p>Desenvolvido por <a href="https://cin.ufpe.br/~rblf">Ricardo Bizerra</a></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

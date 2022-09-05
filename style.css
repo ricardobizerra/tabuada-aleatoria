@@ -1,0 +1,96 @@
+body{
+    background-color: #7ab7dd;
+    color: #000aa4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+img{
+    width: 120px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input{
+    font-size: 1.5rem;
+    width: 40%;
+    background-color: transparent;
+    color: #000aa4;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input:focus{
+    border: 2px solid blue;
+}
+
+#button{
+    font-size: 1.2rem;
+    width: fit-content;
+}
+
+#correcao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+#correcao p{
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+#correcao p:first-child{
+    margin: 1rem 0 1rem;
+}
+
+.acerto{
+    background-color: green;
+    border: 3px solid darkgreen;
+    color: white;
+}
+
+.erro{
+    background-color: red;
+    border: 3px solid darkred;
+    color: white;
+}
+
+/* Retirando as setas do input / Removing arrows from input */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number]{
+    -moz-appearance: textfield;
+}
